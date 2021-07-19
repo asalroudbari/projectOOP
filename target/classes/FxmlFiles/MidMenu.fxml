@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane fx:id="welcome" prefHeight="1000" prefWidth="1500" styleClass="welcome" stylesheets="@../CSSFiles/Welcome.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.view.MidMenu">
+    <center>
+        <VBox alignment="CENTER" BorderPane.alignment="CENTER">
+            <children>
+                <Button fx:id="resumeButton" layoutX="913.0" layoutY="641.0" mnemonicParsing="false" onMouseClicked="#resumeButtonClicked" prefHeight="70.0" prefWidth="230.0" text="RESUME" textFill="#794d4d">
+                    <font>
+                        <Font size="25.0" />
+                    </font>
+                </Button>
+                <Button fx:id="exitButton" layoutX="913.0" layoutY="641.0" mnemonicParsing="false" onMouseClicked="#exitButtonClicked" prefHeight="70.0" prefWidth="230.0" text="Exit" textFill="#794d4d">
+                    <font>
+                        <Font size="25.0" />
+                    </font>
+                </Button>
+            </children>
+        </VBox>
+    </center>
+</BorderPane>

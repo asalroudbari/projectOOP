@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane fx:id="welcome" prefHeight="1000" prefWidth="1500" styleClass="welcome" stylesheets="@../CSSFiles/Welcome.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Main">
+<center>
+<VBox alignment="CENTER" BorderPane.alignment="CENTER">
+    <children>
+            <ImageView fitHeight="469.0" fitWidth="694.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/AboutUs.jpg" />
+               </image>
+            </ImageView>
+        <Button layoutX="538.0" layoutY="695.0" mnemonicParsing="false" onMouseClicked="#backButtonClicked" prefHeight="52.0" prefWidth="135.0" text="back" />
+    </children>
+</VBox>
+</center>
+</BorderPane>

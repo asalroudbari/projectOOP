@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" styleClass="map" stylesheets="@../CSSFiles/Map.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.view.Map">
+   <children>
+      <TableView layoutX="104.0" layoutY="45.0" prefHeight="517.0" prefWidth="368.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="name" />
+          <TableColumn prefWidth="75.0" text="count" />
+            <TableColumn prefWidth="75.0" text="price" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

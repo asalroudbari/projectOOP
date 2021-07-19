@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="1000.0" prefWidth="1500.0" styleClass="mainMenu" stylesheets="@../CSSFiles/MainMenu.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.view.MainMenu">
+        <VBox alignment="CENTER" layoutX="92.0" layoutY="396.0" BorderPane.alignment="CENTER">
+            <children>
+                <Button fx:id="startButton" layoutX="832.0" layoutY="393.0" mnemonicParsing="false" onMouseClicked="#startButtonClicked" prefHeight="54.0" prefWidth="536.0" styleClass="startButton" text="Start" textFill="#764d4d">
+                    <font>
+                        <Font size="45.0" />
+                    </font>
+                </Button>
+                <Button fx:id="SettingsButton" layoutX="868.0" layoutY="514.0" mnemonicParsing="false" onMouseClicked="#SettingsButtonClicked" prefHeight="54.0" prefWidth="430.0" styleClass="SettingButton" text="Settings" textFill="#844c4c">
+                    <font>
+                        <Font size="25.0" />
+                    </font>
+                </Button>
+                <Button fx:id="logOutButton" layoutX="913.0" layoutY="641.0" mnemonicParsing="false" onMouseClicked="#logOutButtonClicked" prefHeight="54.0" prefWidth="219.0" text="LogOut" textFill="#794d4d">
+                    <font>
+                        <Font size="25.0" />
+                    </font>
+                </Button>
+            </children>
+        </VBox>
+</AnchorPane>

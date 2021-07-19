@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane fx:id="Welcome" prefHeight="1000" prefWidth="1500" styleClass="welcome" stylesheets="@../CSSFiles/Welcome.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Main">
+
+    <center>
+        <VBox alignment="CENTER" BorderPane.alignment="CENTER">
+            <children>
+            <ImageView fitHeight="420.0" fitWidth="759.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/logo.png" />
+               </image></ImageView>
+
+                <Button fx:id="loginButton" layoutX="832.0" layoutY="393.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="536.0" styleClass="LoginButton"  onMouseClicked="#loginButtonClicked" text="Login" textFill="#764d4d">
+                    <font>
+                        <Font size="25.0" />
+                    </font>
+                </Button>
+                <Button fx:id="signUpButton" layoutX="868.0" layoutY="514.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="430.0" styleClass="SignUpButton" onMouseClicked="#signUpButtonClicked" text="SignUp" textFill="#844c4c">
+                    <font>
+                        <Font size="25.0" />
+                    </font>
+                </Button>
+                <Button fx:id="exitButton" layoutX="913.0" layoutY="641.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="219.0" text="Exit" onMouseClicked="#exitButtonClicked" textFill="#794d4d">
+                    <font>
+                        <Font size="25.0" />
+                    </font>
+                </Button>
+            </children>
+        </VBox>
+    </center>
+
+
+
+</BorderPane>

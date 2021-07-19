@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane fx:id="Welcome" prefHeight="1000" prefWidth="1500" styleClass="welcome" stylesheets="@../CSSFiles/Welcome.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.view.Settings">
+
+    <center>
+        <VBox alignment="CENTER" BorderPane.alignment="CENTER">
+            <children>
+                <Button fx:id="AboutUs" layoutX="832.0" layoutY="393.0" mnemonicParsing="false" onMouseClicked="#AboutUsButtonClicked" prefHeight="54.0" prefWidth="432.0" styleClass="AboutUs" text="About Us" textFill="#764d4d">
+                    <font>
+                        <Font size="25.0" />
+                    </font>
+                </Button>
+                <Button fx:id="Music" layoutX="868.0" layoutY="514.0" mnemonicParsing="false" onMouseClicked="#MusicButtonClicked" prefHeight="54.0" prefWidth="430.0" styleClass="Music" text="Music" textFill="#844c4c">
+                    <font>
+                        <Font size="25.0" />
+                    </font>
+                </Button>
+                <Button layoutX="538.0" layoutY="695.0" mnemonicParsing="false" onMouseClicked="#backButtonClicked" prefHeight="52.0" prefWidth="135.0" text="back" />
+            </children>
+        </VBox>
+    </center>
+
+
+
+</BorderPane>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane fx:id="map" prefHeight="700" prefWidth="1200" styleClass="map" stylesheets="@../CSSFiles/Map.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.view.Storage">
+
+    <VBox layoutX="400.0" layoutY="300.0">
+      <children>
+          <Button fx:id="egg" alignment="CENTER" layoutX="400.0" layoutY="300.0" mnemonicParsing="false" onMouseClicked="#eggButton" prefHeight="19.0" prefWidth="100.0" styleClass="storageButton" stylesheets="@../CSSFiles/Button.css" text="0" textAlignment="CENTER">
+              <font>
+                  <Font name="System Bold" size="14.0" />
+              </font>
+              <cursor>
+                  <Cursor fx:constant="HAND" />
+              </cursor></Button>
+
+          <Button fx:id="flour" alignment="CENTER" layoutX="400.0" layoutY="300.0" mnemonicParsing="false" onMouseClicked="#flourButton" prefHeight="19.0" prefWidth="100.0" styleClass="storageButton" stylesheets="@../CSSFiles/Button.css" text="0" textAlignment="CENTER">
+              <font>
+                  <Font name="System Bold" size="14.0" />
+              </font>
+              <cursor>
+                  <Cursor fx:constant="HAND" />
+              </cursor></Button>
+          <Button fx:id="feather" alignment="CENTER" layoutX="400.0" layoutY="300.0" mnemonicParsing="false" onMouseClicked="#featherButton" prefHeight="19.0" prefWidth="100.0" styleClass="storageButton" stylesheets="@../CSSFiles/Button.css" text="0" textAlignment="CENTER">
+              <font>
+                  <Font name="System Bold" size="14.0" />
+              </font>
+              <cursor>
+                  <Cursor fx:constant="HAND" />
+              </cursor></Button>
+          <Button fx:id="milk" alignment="CENTER" layoutX="400.0" layoutY="300.0" mnemonicParsing="false" onMouseClicked="#milkButton" prefHeight="19.0" prefWidth="100.0" styleClass="storageButton" stylesheets="@../CSSFiles/Button.css" text="0" textAlignment="CENTER">
+              <font>
+                  <Font name="System Bold" size="14.0" />
+              </font>
+              <cursor>
+                  <Cursor fx:constant="HAND" />
+              </cursor></Button>
+          <Button fx:id="bread" alignment="CENTER" layoutX="400.0" layoutY="300.0" mnemonicParsing="false" onMouseClicked="#breadButton" prefHeight="19.0" prefWidth="100.0" styleClass="storageButton" stylesheets="@../CSSFiles/Button.css" text="0" textAlignment="CENTER">
+              <font>
+                  <Font name="System Bold" size="14.0" />
+              </font>
+              <cursor>
+                  <Cursor fx:constant="HAND" />
+              </cursor></Button>
+          <Button fx:id="cloth" alignment="CENTER" layoutX="400.0" layoutY="300.0" mnemonicParsing="false" onMouseClicked="#clothButton" prefHeight="19.0" prefWidth="100.0" styleClass="storageButton" stylesheets="@../CSSFiles/Button.css" text="0" textAlignment="CENTER">
+              <font>
+                  <Font name="System Bold" size="14.0" />
+              </font>
+              <cursor>
+                  <Cursor fx:constant="HAND" />
+              </cursor></Button>
+          <Button fx:id="dress" alignment="CENTER" layoutX="400.0" layoutY="300.0" mnemonicParsing="false" onMouseClicked="#dressButton" prefHeight="19.0" prefWidth="100.0" styleClass="storageButton" stylesheets="@../CSSFiles/Button.css" text="0" textAlignment="CENTER">
+              <font>
+                  <Font name="System Bold" size="14.0" />
+              </font>
+              <cursor>
+                  <Cursor fx:constant="HAND" />
+              </cursor></Button>
+          <Button fx:id="iceCream" alignment="CENTER" layoutX="400.0" layoutY="300.0" mnemonicParsing="false" onMouseClicked="#iceCreamButton" prefHeight="19.0" prefWidth="100.0" styleClass="storageButton" stylesheets="@../CSSFiles/Button.css" text="0" textAlignment="CENTER">
+              <font>
+                  <Font name="System Bold" size="14.0" />
+              </font>
+              <cursor>
+                  <Cursor fx:constant="HAND" />
+              </cursor></Button>
+
+      </children>
+    </VBox>
+    <VBox layoutX="960.0" layoutY="300.0">
+        <children>
+            <Button fx:id="lion" alignment="CENTER" layoutX="400.0" layoutY="300.0" mnemonicParsing="false" onMouseClicked="#lionButton" prefHeight="19.0" prefWidth="100.0" styleClass="storageButton" stylesheets="@../CSSFiles/Button.css" text="0" textAlignment="CENTER">
+                <font>
+                    <Font name="System Bold" size="14.0" />
+                </font>
+                <cursor>
+                    <Cursor fx:constant="HAND" />
+                </cursor></Button>
+
+            <Button fx:id="bear" alignment="CENTER" layoutX="400.0" layoutY="300.0" mnemonicParsing="false" onMouseClicked="#bearButton" prefHeight="19.0" prefWidth="100.0" styleClass="storageButton" stylesheets="@../CSSFiles/Button.css" text="0" textAlignment="CENTER">
+                <font>
+                    <Font name="System Bold" size="14.0" />
+                </font>
+                <cursor>
+                    <Cursor fx:constant="HAND" />
+                </cursor></Button>
+            <Button fx:id="tiger" alignment="CENTER" layoutX="400.0" layoutY="300.0" mnemonicParsing="false" onMouseClicked="#tigerButton" prefHeight="19.0" prefWidth="100.0" styleClass="storageButton" stylesheets="@../CSSFiles/Button.css" text="0" textAlignment="CENTER">
+                <font>
+                    <Font name="System Bold" size="14.0" />
+                </font>
+                <cursor>
+                    <Cursor fx:constant="HAND" />
+                </cursor></Button>
+
+        </children>
+    </VBox>
+    <Button layoutX="800.0" layoutY="577.0" mnemonicParsing="false" onMouseClicked="#sellButton" prefHeight="60.0" prefWidth="132.0" text="sell" />
+    <Button layoutX="949.0" layoutY="577.0" mnemonicParsing="false" onMouseClicked="#backButton" prefHeight="60.0" prefWidth="132.0" text="back" />
+</Pane>

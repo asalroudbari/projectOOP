@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import java.net.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import java.net.URL?>
+
+<AnchorPane fx:id="root" prefHeight="800.0" prefWidth="1198.0" styleClass="bodyBackGround" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.view.MainGround">
+    <stylesheets>
+        <URL value="@../CSSFiles/backgroundStyle.css" />
+    </stylesheets>
+    <children>
+
+        <MenuButton layoutX="14.0" layoutY="14.0" mnemonicParsing="false" style="-fx-background-radius: 30; fx-font: normal bold 20px 'serif';" text="MENU">
+            <items>
+                <MenuItem fx:id="muteBTN" mnemonicParsing="false" onAction="#muteHit" style="-fx-font: normal bold 20px 'serif'; -fx-background-color: YELLOW;" text="MUTE" />
+                <MenuItem fx:id="MainMenu" mnemonicParsing="false" onAction="#MainMenuHit" style="-fx-font: normal bold 20px 'serif'; -fx-background-color: YELLOW;" text="Main Menu" />
+                <MenuItem fx:id="exitBTN" mnemonicParsing="false" onAction="#exitHit" style="-fx-font: normal bold 20px 'serif'; -fx-background-color: YELLOW;" text="EXIT" />
+            </items>
+        </MenuButton>
+        <Rectangle fx:id="well" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="179.0" layoutX="460.0" layoutY="48.0" onMouseClicked="#wellHit" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="179.0" />
+        <Rectangle fx:id="yard" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="412.0" layoutX="177.0" layoutY="242.0" onMouseClicked="#yardHit" opacity="0.0" stroke="#fffbfb" strokeType="INSIDE" strokeWidth="0.001" width="745.0" />
+        <MenuButton layoutX="122.0" layoutY="14.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="123.0" style="-fx-background-color: Yellow; -fx-background-radius: 35;" text="BUY">
+            <items>
+                <MenuItem fx:id="dogBTN" mnemonicParsing="false" onAction="#dogHit" style="-fx-background-color: RED; -fx-font: normal bold 20px 'serif';" text="DOG     100" />
+                <MenuItem fx:id="catBTN" mnemonicParsing="false" onAction="#catHit" style="-fx-background-color: red; -fx-font: normal bold 20px 'serif';" text="CAT       150" />
+                <MenuItem fx:id="henBTN" mnemonicParsing="false" onAction="#henHit" style="-fx-background-color: red; -fx-font: normal bold 20px 'serif';" text="HEN       100" />
+                <MenuItem fx:id="bufBTN" mnemonicParsing="false" onAction="#bufHit" style="-fx-background-color: red; -fx-font: normal bold 20px 'serif';" text="BUF        400" />
+            <MenuItem fx:id="bufBTN1" mnemonicParsing="false" onAction="#turHit" style="-fx-background-color: red; -fx-font: normal bold 20px 'serif';" text="TUR        200" />
+            </items>
+        </MenuButton>
+        <Rectangle fx:id="dryEgg" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="138.0" layoutX="21.0" layoutY="279.0" onMouseClicked="#dryEggClicked" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="135.0" />
+        <Rectangle fx:id="bakery" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="168.0" layoutX="954.0" layoutY="487.0" onMouseClicked="#bakeryClicked" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="168.0" />
+        <Rectangle fx:id="transport" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="102.0" layoutX="429.0" layoutY="660.0" onMouseClicked="#transportClicked" stroke="#fcfcfc" strokeType="INSIDE" strokeWidth="0.0" width="211.0" />
+      <Rectangle fx:id="heli" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="70.0" layoutX="656.0" layoutY="682.0" stroke="#fcfafa" strokeType="INSIDE" strokeWidth="0.0" width="74.0" />
+      <Label layoutX="223.0" layoutY="668.0" prefHeight="43.0" prefWidth="111.0" text="COINS:" textFill="#5e0d0d">
+         <font>
+            <Font name="Bell MT" size="32.0" />
+         </font>
+      </Label>
+      <Label fx:id="coinsLabel" layoutX="334.0" layoutY="668.0" prefHeight="43.0" prefWidth="74.0" text="0" textFill="#2000ff">
+         <font>
+            <Font name="Calibri Italic" size="27.0" />
+         </font>
+      </Label>
+      <Label fx:id="timeLabel" alignment="CENTER" layoutX="231.0" layoutY="717.0" prefHeight="53.0" prefWidth="117.0" textFill="#5c14fa">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="639.0" layoutY="186.0" prefHeight="31.0" prefWidth="39.0" text="15$">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="waterLabel" layoutX="515.0" layoutY="210.0" prefHeight="31.0" prefWidth="55.0" textFill="#2a27a3">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="43.0" layoutX="95.0" layoutY="427.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="55.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="43.0" layoutX="954.0" layoutY="427.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="46.0" />
+      <Rectangle fx:id="makeHen" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="129.0" layoutX="937.0" layoutY="279.0" onMouseClicked="#makeHenClicked" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="155.0" />
+    </children>
+</AnchorPane>

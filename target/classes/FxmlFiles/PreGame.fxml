@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="1000.0" prefWidth="1500.0" styleClass="preGame" stylesheets="@../CSSFiles/PreGame.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.view.PreGame">
+   <children>
+      <GridPane fx:id="levels" layoutX="209.0" layoutY="269.0" prefHeight="218.0" prefWidth="1158.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+      </GridPane>
+      <Button layoutX="724.0" layoutY="570.0" mnemonicParsing="false" prefHeight="119.0" prefWidth="300.0" text="back" onMouseClicked="#backButton">
+          <font>
+              <Font size="41.0" />
+          </font>
+      </Button>
+   </children>
+</AnchorPane>

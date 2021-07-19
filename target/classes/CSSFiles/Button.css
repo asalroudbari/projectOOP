@@ -1,0 +1,12 @@
+.storageButton:hover {
+    -fx-background-color: #272636;
+    -fx-prompt-text-fill: #C62C47;
+    -fx-text-fill: #C62C47;
+    -fx-opacity: 1;
+}
+.storageButton {
+    -fx-background-color: #C62C47;
+    -fx-prompt-text-fill: #272636;
+    -fx-text-fill: #272636;
+    -fx-opacity: 0.5;
+}

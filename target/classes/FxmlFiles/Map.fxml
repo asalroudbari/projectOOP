@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="1000.0" prefWidth="1500.0" styleClass="map" stylesheets="@../CSSFiles/Map.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.view.Map">
+   <children>
+      <ToolBar layoutX="14.0" layoutY="519.0" opacity="0.93" prefHeight="49.0" prefWidth="238.0">
+        <items>
+            <Button fx:id="buffaloButton" layoutX="832.0" layoutY="393.0" mnemonicParsing="false" onMouseClicked="#buffaloButtonClicked" prefHeight="15.0" prefWidth="70.0" styleClass="startButton" text="buffalo" textFill="#764d4d">
+                <font>
+                    <Font size="12.0" />
+                </font>
+            </Button>
+            <Button fx:id="chickenButton" layoutX="868.0" layoutY="514.0" mnemonicParsing="false" onMouseClicked="#chickenButtonClicked" prefHeight="15.0" prefWidth="70.0" styleClass="SettingButton" text="chicken" textFill="#844c4c">
+                <font>
+                    <Font size="12.0" />
+                </font>
+            </Button>
+            <Button fx:id="turkeyButton" layoutX="913.0" layoutY="641.0" mnemonicParsing="false" onMouseClicked="#turkeyButtonClicked" prefHeight="15.0" prefWidth="70.0" text="turkey" textFill="#794d4d">
+                <font>
+                    <Font size="12.0" />
+                </font>
+            </Button>
+        </items>
+      </ToolBar>
+      <ToolBar layoutX="998.0" layoutY="541.0" prefHeight="40.0" prefWidth="238.0">
+        <items>
+            <Button fx:id="truckButton" layoutX="1500.0" layoutY="641.0" mnemonicParsing="false" onMouseClicked="#truckButtonClicked" prefHeight="15.0" prefWidth="70.0" text="truck" textFill="#794d4d">
+                <font>
+                    <Font size="12.0" />
+                </font>
+            </Button>
+            <Button fx:id="menuButton" layoutX="1500.0" layoutY="641.0" mnemonicParsing="false" onMouseClicked="#menuButtonClicked" prefHeight="15.0" prefWidth="70.0" text="menu" textFill="#794d4d">
+                <font>
+                    <Font size="12.0" />
+                </font>
+            </Button>
+            <Button fx:id="shopButton" layoutX="1500.0" layoutY="641.0" mnemonicParsing="false" onMouseClicked="#shopButtonClicked" prefHeight="15.0" prefWidth="70.0" text="shop" textFill="#794d4d">
+                <font>
+                    <Font size="12.0" />
+                </font>
+            </Button>
+        </items>
+      </ToolBar>
+       <Button fx:id="wellButton" layoutX="506.0" layoutY="55.0" mnemonicParsing="false" onMouseClicked="#wellButtonClicked" prefHeight="17.0" prefWidth="60.0" text="well" textFill="#794d4d">
+           <font>
+               <Font size="12.0" />
+           </font>
+       </Button>
+      <ToolBar layoutX="14.0" layoutY="479.0" opacity="0.92" prefHeight="40.0" prefWidth="117.0">
+        <items>
+            <Button fx:id="dogButton" mnemonicParsing="false" onMouseClicked="#dogButtonClicked" prefHeight="13.0" prefWidth="50.0" text="Dog" textFill="#1e90a2" />
+            <Button fx:id="catButton" mnemonicParsing="false" onMouseClicked="#catButtonClicked" prefHeight="13.0" prefWidth="50.0" text="Cat" textFill="#1e90a2" />
+        </items>
+      </ToolBar>
+   </children>
+</AnchorPane>
